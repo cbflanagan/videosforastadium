@@ -1,3 +1,6 @@
+h1{
+  font-family: 'Overpass', sans-serif;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,4 +20,18 @@ p {
   padding-bottom: 20px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.hvrbox .hvrbox-layer_slidedown {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.hvrbox:hover .hvrbox-layer_slidedown,
+.hvrbox.active .hvrbox-layer_slidedown {
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
 }
